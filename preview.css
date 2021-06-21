@@ -1,0 +1,152 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0 10%;
+    box-sizing: border-box;
+}
+
+.preview{
+    margin: 10%;
+    width: inherit;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* background-color: brown; */
+    
+}
+
+.preview div{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.preview .col{
+    width: 33.3333%;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.preview::after{
+    content: '';
+    display: block;
+    clear: left;
+}
+
+.preview .col .cars .content{
+    position: relative;
+    height: 80vh;
+    width: 40vh;
+    padding: 15%;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+
+.preview .col .cars .content img{
+    position: absolute;
+    top: 10%;
+    
+}
+.preview .col .cars .content h4{
+    position: absolute;
+    top: 25%;
+    font-family: 'Big Shoulders Display';
+    font-size: xx-large;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.preview .col .cars .content p{
+    position: absolute;
+    top: 40%;
+    font-family: 'Lexend Deca';
+    font-size: small;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.preview .col .cars .sedans .content button{
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    padding: 10px 30px;
+    font-family: 'Lexend Deca';
+    font-size: small;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    color: hsl(31, 77%, 52%);
+    border: none;
+    transition-property: color, background-color, border;
+    transition: 0.3s ease-in-out;
+
+}
+.preview .col .cars .sedans .content button:hover{
+    border: 2px solid white;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+    transition: 0.5s all ease-in-out;
+}
+.preview .col .cars .suvs .content button{
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    padding: 10px 30px;
+    font-family: 'Lexend Deca';
+    font-size: small;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%);
+    border: none;
+    transition:0.3s all ease-in-out;
+}
+.preview .col .cars .suvs .content button:hover{
+    border: 2px solid white;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+    transition: 0.5s all ease-in-out;
+}
+.preview .col .cars .luxury .content button{
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    padding: 10px 30px;
+    font-family: 'Lexend Deca';
+    font-size: small;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    color: hsl(179, 100%, 13%);
+    border: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.preview .col .cars .luxury .content button:hover{
+    border: 2px solid white;
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
+    transition: 0.5s all ease-in-out;
+}
+
+.preview .col .cars .sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.preview .col .cars .suvs{
+    background-color: hsl(184, 100%, 22%);
+   
+}
+.preview .col .cars .luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
